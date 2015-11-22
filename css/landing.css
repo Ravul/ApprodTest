@@ -1,0 +1,106 @@
+/* ----------------------- 
+Import
+-------------------------*/
+@font-face {
+    font-family: SourcePro-Regular;
+    src: url("/assets/fonts/sourcePro/SourceSansPro-Regular.otf");
+}
+@font-face {
+    font-family: SourcePro-Light;
+    src: url("/assets/fonts/sourcePro/SourceSansPro-Light.otf");
+}
+
+/* ----------------------- 
+General styles
+-------------------------*/
+body {
+    background-color: #89b4d0;
+    font-family: SourcePro-Light, sans-serif; 
+    font-weight: 100;
+    color:white;
+}
+
+/* ----------------------- 
+Headline section 
+-------------------------*/
+.ld-headline {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    
+    margin-top: 50px;
+    margin-bottom: 82px;
+}
+.ld-list {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 28px;
+    margin-bottom: 109px;
+}
+
+.ld-list li {
+    list-style:square;
+}
+
+/* ----------------------- 
+Functionality section 
+-------------------------*/
+.ld-funct-title {
+    text-align: center;
+    font-size: 45px;
+    background-color: #10b484;
+    padding: 20px 0;
+    margin: 0;
+    
+    border-top: 5px solid white;
+    border-bottom: 3px solid white;
+}
+
+.ld-options {
+    position: relative;
+    background-color: #2581bc;
+    
+    border-bottom: 3px solid white;
+}
+
+.ld-container {
+    max-width: 970px;
+}
+
+.ld-upper-pin-img {
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.ld-options p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+.ld-option-icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 18px;
+
+}
+
+.ld-white-line {
+    position: absolute;
+    border-bottom: 3px solid white;
+    top: 124px;
+    left: 0px;
+    width: 100%;
+}
+
+.ld-option:hover {
+    background-color: #10b484;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}

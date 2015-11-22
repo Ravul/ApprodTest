@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Home Page</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/landing.css" />
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap.min.js"></script>
+    <script src="js/landingController.js"></script>
+
+  </head>
+
+  <body>
+    <!-- Landing Title-->
+    <section class="container">
+        <div class="row">
+            <h1 class="ld-headline">Aici iți completezi orice formular cu un singur click</h1>
+            
+            <ul class="ld-list">
+                <li>Îți scrii datele o singură dată</li>
+                <li>Completezi oricâte formulare vrei</li>
+                <li>Ești informat și știi ce sa faci în orice moment</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Functionality-->
+    <section ng-controller="LandingCtrl as landingCtrl">
+        <h1 class="ld-funct-title">Ce formulare ai de completat ?</h1>
+        
+        <div class="ld-options">
+            
+            <div class="ld-white-line"></div>
+            
+            <div class="container ld-container">
+                <div class="row">
+                    <div class="col-md-2 ld-option" ng-repeat="docOption in landingCtrl.docOptions">
+                        <img src="assets/images/upper-pin.png" alt="pin" class="ld-upper-pin-img"/>
+                        <p>{{docOption.first}}<br>{{docOption.second}}</p>
+                        <img src="assets/images/doc-icon.png" alt="Icon Infiintare PFA" class="ld-option-icon"/>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="ld-search-bar">
+            <h1>Ce formulare ai de completat ?</h1>
+        </div>
+        
+        
+        
+    </section>
+      
+      <section>
+          <h1 class="ld-security-bar">Ce formulare ai de completat ?</h1>
+          <h1 class="ld-banner-bar">Ce formulare ai de completat ?</h1>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+  </body>
+</html>
