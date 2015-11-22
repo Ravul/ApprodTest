@@ -78,7 +78,7 @@ Functionality section
     font-size: 28px;
     line-height: 36px;
     margin-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
 }
 
@@ -86,8 +86,9 @@ Functionality section
 .ld-option-icon {
     display: block;
     margin: 0 auto;
-    margin-top: 33px;
+    margin-top: 0px;
     margin-bottom: 18px;
+
 
 }
 
@@ -103,4 +104,147 @@ Functionality section
     background-color: #10b484;
     border-left: 3px solid white;
     border-right: 3px solid white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ld-search-bar-container {
+    
+    background-color: #2581bc;
+    background-color: #cdb426;
+    background-color: #10b484;
+    
+    border-bottom: 3px solid white;
+}
+
+.ld-search-bar {
+    width: 535px;
+    height: 59px;
+    
+    
+    background-color: #2581bc; 
+    background-color: #cdb426;
+    background-color: #10b484;
+    
+    border: 0;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    outline:none;
+    
+    font-size: 28px;
+    
+    padding-left: 30px;
+}
+
+.ld-search-bar::-webkit-input-placeholder {
+   color: white; 
+}
+
+.ld-search-bar:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+.ld-search-bar::-moz-placeholder {  /* Firefox 19+ */
+   color: white;   
+}
+
+.ld-search-bar:-ms-input-placeholder {  
+   color: white;  
+}
+
+
+
+.ld-seach-icon {
+    height: 59px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    
+    border-right: 3px solid 
+}
+
+.ld-span-icon {
+    padding: 0;
+}
+
+.ld-input-group {
+    display: block;
+    margin: 0 auto;
+    max-width: 625px;
+}
+
+/* ----------------------- 
+Security Info section 
+-------------------------*/
+
+.ld-sec-info {
+    text-align: center;
+    padding: 14px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    
+    font-size: 22px;
+    margin: 0;
+}
+
+.ld-sec-info-image {
+    height: 28px;
+    margin-right: 10px;
+}
+
+.ld-sec-info-link {
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.ld-sec {
+    margin-top: 117px;
+    background-color: #10b484;
+}
+
+.ld-banner {
+    border-bottom: 3px solid white;
+    height: 114px;
+    background-color: #2581bc;
+
+}
+
+.ld-banner-img {
+    display: block;
+    margin: 0 auto;
+    
+    margin-top:0px;
+    height: 80px;
+}
+
+.ld-footer {    
+    height: 50px;
+}
+
+.ld-footer a {
+    color:white;
+    display: iniline-block;
+   
+    
+   
+}
+
+.ld-footer-bar {
+    margin: 0;
+}
+
+.ld-social {
+    border-bottom: 3px solid white;
+    background-color: #2581bc;
+}
+
+.ld-social-img {
+    display: inline-block;
+    padding: 20px;
+}
+
+.ld-option {
+      padding-left: 0;
+      padding-right: 0;
 }

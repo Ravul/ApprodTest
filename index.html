@@ -21,7 +21,7 @@
     <!-- Landing Title-->
     <section class="container">
         <div class="row">
-            <h1 class="ld-headline">Aici iți completezi orice formular cu un singur click</h1>
+            <h1 class="ld-headline">Aici îți completezi orice formular cu un singur click</h1>
             
             <ul class="ld-list">
                 <li>Îți scrii datele o singură dată</li>
@@ -36,11 +36,11 @@
         
         <div class="ld-options">
             
-            <div class="ld-white-line"></div>
+<!--            <div class="ld-white-line"></div>-->
             
             <div class="container ld-container">
                 <div class="row">
-                    <div class="col-md-2 ld-option" ng-repeat="docOption in landingCtrl.docOptions">
+                    <div class="col-sm-2 ld-option" ng-repeat="docOption in landingCtrl.docOptions">
                         <img src="assets/images/upper-pin.png" alt="pin" class="ld-upper-pin-img"/>
                         <p>{{docOption.first}}<br>{{docOption.second}}</p>
                         <img src="assets/images/doc-icon.png" alt="Icon Infiintare PFA" class="ld-option-icon"/>
@@ -49,41 +49,46 @@
                 </div>
             </div>
         </div>
-        
-        <div class="ld-search-bar">
-            <h1>Ce formulare ai de completat ?</h1>
+
+        <div class="ld-search-bar-container">
+            <form>
+                
+                
+                <div class="ld-input-group">  
+                    <input type="text" name="searchForm" placeholder="Caută formulare" onfocus="this.placeholder = ''"  onblur="this.placeholder='Caută formulare'" class="ld-search-bar"><!-- 
+                    --><img src="assets/images/search-icon.png" alt="Search Icon" class="ld-seach-icon">
+                </div>  
+            </form>
         </div>
-        
-        
-        
-    </section>
-      
-      <section>
-          <h1 class="ld-security-bar">Ce formulare ai de completat ?</h1>
-          <h1 class="ld-banner-bar">Ce formulare ai de completat ?</h1>
       </section>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      
+      <!-- Security Info -->
+      <section class="ld-sec">
+          <p class="ld-sec-info"><img src="assets/images/shield-icon.png" alt="Shield Icon" class="ld-sec-info-image">Approd îți ține datele în siguranță.<a href="" class="ld-sec-info-link">Află mai multe</a></p>
+      </section>
+      
+      <!-- Banner -->
+      <section class="ld-banner">
+          <p style="padding-top:5px"></p>
+          <img src="assets/images/banners.png" alt="Banner" class="ld-banner-img">
+      </section>
+      <!-- Social Elem Section -->
+      <section class="ld-social text-center">
+        <a href=""><img src="assets/images/footer_facebook.png" alt="Banner" class="ld-social-img"></a>
+          <a href=""><img src="assets/images/footer_twitter.png" alt="Banner" class="ld-social-img"></a>
+      </section>
+      <!-- Footer -->
+      <footer class="ld-footer">
+          <div class="navbar navbar-inverse ld-footer-bar" role="navigation">
+<div class="container">
+    <div class="navbar-text pull-right"><a href="">CONTACT</a></div>
+    <div class="navbar-text pull-right"><a href="">POLITICA DE SECURITATE </a></div>
+              
+    <div class="navbar-text pull-right"><a href="">TERMENI ȘI CONDIȚII</a></div>
+
+          </div>
+        </div>
+      </footer>
       
   </body>
 </html>
